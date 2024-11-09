@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Understanding TypeScript</title>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=<%= GOOGLE_MAPS_API_KEY %>&loading=async"
+      async
+      defer
+      referrerpolicy="origin"
+    ></script>
+  </head>
+  <body>
+    <div id="map">
+      <p>Please enter an address!</p>
+    </div>
+    <form id="address-form">
+      <input type="text" id="address" />
+      <button type="submit">SEARCH ADRESS</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "typescript-select-map",
+  "version": "1.0.0",
+  "description": "Understanding TypeScript Course Setup",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "^3.43.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "style-loader": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
